@@ -6,14 +6,15 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public InputAction LeftAction;
-    public InputAction Move Action;
-        }
+    public InputAction MoveAction;
+        
 
 
     // Start is called before the first frame update
     void Start()
     {
         LeftAction.Enable();
+        MoveAction.Enable();
     }
 
     // Update is called once per frame
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
             vertical = -0.1f;
         }
         Debug.Log(vertical);
+
 
             Vector2 position = transform.position;
         position.x = position.x + 0.1f * horizontal;
