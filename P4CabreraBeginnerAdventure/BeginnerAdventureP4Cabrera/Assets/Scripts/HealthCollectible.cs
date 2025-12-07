@@ -8,7 +8,7 @@ public class HealthCollectible : MonoBehaviour
     {
         PlayerController controller = other.GetComponent<PlayerController>();
 
-        if (controller != null && controller.health < controller.maxHealth)
+        if (controller != null && controller.health< controller.maxHealth)
         {
 
             controller.ChangeHealth(1);
