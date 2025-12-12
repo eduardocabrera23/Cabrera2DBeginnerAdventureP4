@@ -149,9 +149,9 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
-  speed: 3
+  speed: 4
   maxHealth: 5
-  timeInvincible: 2
+  timeInvincible: 1
   projectilePrefab: {fileID: 3130121127404651157, guid: f8c173793c198b846a416f5e355ffa77,
     type: 3}
 --- !u!50 &7496822051925090860
